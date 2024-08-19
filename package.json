@@ -1,0 +1,20 @@
+{
+  "name": "gemini-for-google-tasks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "push:google": "clasp -P src/ push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/praveeno/gemini-for-google-tasks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/praveeno/gemini-for-google-tasks/issues"
+  },
+  "homepage": "https://github.com/praveeno/gemini-for-google-tasks#readme"
+}

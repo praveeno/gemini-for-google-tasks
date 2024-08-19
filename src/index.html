@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+  </head>
+  <body>
+    <button onclick="callServer()" >AI</button>
+    <div id="response"></div>
+  </body>
+
+  <script>
+    function callServer() {
+      google.script.run.withSuccessHandler(function(response) {
+        document.getElementById("response").innerText = 'DONE';
+      }).myFunction();
+    }
+  </script>
+</html>
